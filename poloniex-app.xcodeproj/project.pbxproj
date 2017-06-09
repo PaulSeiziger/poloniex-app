@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DBC0FEB1EEABE22002A8B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0FEA1EEABE22002A8B72 /* AppDelegate.swift */; };
+		4DBC0FED1EEABE22002A8B72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0FEC1EEABE22002A8B72 /* ViewController.swift */; };
+		4DBC0FF01EEABE22002A8B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC0FEE1EEABE22002A8B72 /* Main.storyboard */; };
+		4DBC0FF21EEABE22002A8B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC0FF11EEABE22002A8B72 /* Assets.xcassets */; };
+		4DBC0FF51EEABE22002A8B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC0FF31EEABE22002A8B72 /* LaunchScreen.storyboard */; };
+		4DBC10001EEABE22002A8B72 /* poloniex_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0FFF1EEABE22002A8B72 /* poloniex_appTests.swift */; };
+		4DBC100B1EEABE22002A8B72 /* poloniex_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC100A1EEABE22002A8B72 /* poloniex_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DBC0FFC1EEABE22002A8B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DBC0FDF1EEABE22002A8B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DBC0FE61EEABE22002A8B72;
+			remoteInfo = "poloniex-app";
+		};
+		4DBC10071EEABE22002A8B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DBC0FDF1EEABE22002A8B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DBC0FE61EEABE22002A8B72;
+			remoteInfo = "poloniex-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DBC0FE71EEABE22002A8B72 /* poloniex-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poloniex-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBC0FEA1EEABE22002A8B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DBC0FEC1EEABE22002A8B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DBC0FEF1EEABE22002A8B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBC0FF11EEABE22002A8B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DBC0FF41EEABE22002A8B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DBC0FF61EEABE22002A8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBC0FFB1EEABE22002A8B72 /* poloniex-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poloniex-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBC0FFF1EEABE22002A8B72 /* poloniex_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poloniex_appTests.swift; sourceTree = "<group>"; };
+		4DBC10011EEABE22002A8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBC10061EEABE22002A8B72 /* poloniex-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poloniex-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBC100A1EEABE22002A8B72 /* poloniex_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poloniex_appUITests.swift; sourceTree = "<group>"; };
+		4DBC100C1EEABE22002A8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DBC0FE41EEABE22002A8B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBC0FF81EEABE22002A8B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBC10031EEABE22002A8B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DBC0FDE1EEABE22002A8B72 = {
+			isa = PBXGroup;
+			children = (
+				4DBC0FE91EEABE22002A8B72 /* poloniex-app */,
+				4DBC0FFE1EEABE22002A8B72 /* poloniex-appTests */,
+				4DBC10091EEABE22002A8B72 /* poloniex-appUITests */,
+				4DBC0FE81EEABE22002A8B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DBC0FE81EEABE22002A8B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC0FE71EEABE22002A8B72 /* poloniex-app.app */,
+				4DBC0FFB1EEABE22002A8B72 /* poloniex-appTests.xctest */,
+				4DBC10061EEABE22002A8B72 /* poloniex-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBC0FE91EEABE22002A8B72 /* poloniex-app */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC0FEA1EEABE22002A8B72 /* AppDelegate.swift */,
+				4DBC0FEC1EEABE22002A8B72 /* ViewController.swift */,
+				4DBC0FEE1EEABE22002A8B72 /* Main.storyboard */,
+				4DBC0FF11EEABE22002A8B72 /* Assets.xcassets */,
+				4DBC0FF31EEABE22002A8B72 /* LaunchScreen.storyboard */,
+				4DBC0FF61EEABE22002A8B72 /* Info.plist */,
+			);
+			path = "poloniex-app";
+			sourceTree = "<group>";
+		};
+		4DBC0FFE1EEABE22002A8B72 /* poloniex-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC0FFF1EEABE22002A8B72 /* poloniex_appTests.swift */,
+				4DBC10011EEABE22002A8B72 /* Info.plist */,
+			);
+			path = "poloniex-appTests";
+			sourceTree = "<group>";
+		};
+		4DBC10091EEABE22002A8B72 /* poloniex-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC100A1EEABE22002A8B72 /* poloniex_appUITests.swift */,
+				4DBC100C1EEABE22002A8B72 /* Info.plist */,
+			);
+			path = "poloniex-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DBC0FE61EEABE22002A8B72 /* poloniex-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBC100F1EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-app" */;
+			buildPhases = (
+				4DBC0FE31EEABE22002A8B72 /* Sources */,
+				4DBC0FE41EEABE22002A8B72 /* Frameworks */,
+				4DBC0FE51EEABE22002A8B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poloniex-app";
+			productName = "poloniex-app";
+			productReference = 4DBC0FE71EEABE22002A8B72 /* poloniex-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DBC0FFA1EEABE22002A8B72 /* poloniex-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBC10121EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-appTests" */;
+			buildPhases = (
+				4DBC0FF71EEABE22002A8B72 /* Sources */,
+				4DBC0FF81EEABE22002A8B72 /* Frameworks */,
+				4DBC0FF91EEABE22002A8B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DBC0FFD1EEABE22002A8B72 /* PBXTargetDependency */,
+			);
+			name = "poloniex-appTests";
+			productName = "poloniex-appTests";
+			productReference = 4DBC0FFB1EEABE22002A8B72 /* poloniex-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DBC10051EEABE22002A8B72 /* poloniex-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBC10151EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-appUITests" */;
+			buildPhases = (
+				4DBC10021EEABE22002A8B72 /* Sources */,
+				4DBC10031EEABE22002A8B72 /* Frameworks */,
+				4DBC10041EEABE22002A8B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DBC10081EEABE22002A8B72 /* PBXTargetDependency */,
+			);
+			name = "poloniex-appUITests";
+			productName = "poloniex-appUITests";
+			productReference = 4DBC10061EEABE22002A8B72 /* poloniex-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DBC0FDF1EEABE22002A8B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Павел Дреманович";
+				TargetAttributes = {
+					4DBC0FE61EEABE22002A8B72 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7HC5QYD3ZK;
+						ProvisioningStyle = Automatic;
+					};
+					4DBC0FFA1EEABE22002A8B72 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7HC5QYD3ZK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DBC0FE61EEABE22002A8B72;
+					};
+					4DBC10051EEABE22002A8B72 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7HC5QYD3ZK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DBC0FE61EEABE22002A8B72;
+					};
+				};
+			};
+			buildConfigurationList = 4DBC0FE21EEABE22002A8B72 /* Build configuration list for PBXProject "poloniex-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DBC0FDE1EEABE22002A8B72;
+			productRefGroup = 4DBC0FE81EEABE22002A8B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DBC0FE61EEABE22002A8B72 /* poloniex-app */,
+				4DBC0FFA1EEABE22002A8B72 /* poloniex-appTests */,
+				4DBC10051EEABE22002A8B72 /* poloniex-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DBC0FE51EEABE22002A8B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBC0FF51EEABE22002A8B72 /* LaunchScreen.storyboard in Resources */,
+				4DBC0FF21EEABE22002A8B72 /* Assets.xcassets in Resources */,
+				4DBC0FF01EEABE22002A8B72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBC0FF91EEABE22002A8B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBC10041EEABE22002A8B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DBC0FE31EEABE22002A8B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBC0FED1EEABE22002A8B72 /* ViewController.swift in Sources */,
+				4DBC0FEB1EEABE22002A8B72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBC0FF71EEABE22002A8B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBC10001EEABE22002A8B72 /* poloniex_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBC10021EEABE22002A8B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBC100B1EEABE22002A8B72 /* poloniex_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DBC0FFD1EEABE22002A8B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DBC0FE61EEABE22002A8B72 /* poloniex-app */;
+			targetProxy = 4DBC0FFC1EEABE22002A8B72 /* PBXContainerItemProxy */;
+		};
+		4DBC10081EEABE22002A8B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DBC0FE61EEABE22002A8B72 /* poloniex-app */;
+			targetProxy = 4DBC10071EEABE22002A8B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DBC0FEE1EEABE22002A8B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBC0FEF1EEABE22002A8B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBC0FF31EEABE22002A8B72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBC0FF41EEABE22002A8B72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DBC100D1EEABE22002A8B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DBC100E1EEABE22002A8B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DBC10101EEABE22002A8B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				INFOPLIST_FILE = "poloniex-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4DBC10111EEABE22002A8B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				INFOPLIST_FILE = "poloniex-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4DBC10131EEABE22002A8B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				INFOPLIST_FILE = "poloniex-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poloniex-app.app/poloniex-app";
+			};
+			name = Debug;
+		};
+		4DBC10141EEABE22002A8B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				INFOPLIST_FILE = "poloniex-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poloniex-app.app/poloniex-app";
+			};
+			name = Release;
+		};
+		4DBC10161EEABE22002A8B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				INFOPLIST_FILE = "poloniex-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "poloniex-app";
+			};
+			name = Debug;
+		};
+		4DBC10171EEABE22002A8B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				INFOPLIST_FILE = "poloniex-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "poloniex-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DBC0FE21EEABE22002A8B72 /* Build configuration list for PBXProject "poloniex-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBC100D1EEABE22002A8B72 /* Debug */,
+				4DBC100E1EEABE22002A8B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBC100F1EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBC10101EEABE22002A8B72 /* Debug */,
+				4DBC10111EEABE22002A8B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DBC10121EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBC10131EEABE22002A8B72 /* Debug */,
+				4DBC10141EEABE22002A8B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DBC10151EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBC10161EEABE22002A8B72 /* Debug */,
+				4DBC10171EEABE22002A8B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DBC0FDF1EEABE22002A8B72 /* Project object */;
+}
