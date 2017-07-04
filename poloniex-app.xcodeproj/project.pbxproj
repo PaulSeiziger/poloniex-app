@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D32A0901EF0905C003CC8DE /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32A08F1EF0905C003CC8DE /* CurrencyRate.swift */; };
+		4DAC556C1F0C3AF700FFCB49 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAC556B1F0C3AF700FFCB49 /* ExternalAccessory.framework */; };
 		4DBC0FEB1EEABE22002A8B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0FEA1EEABE22002A8B72 /* AppDelegate.swift */; };
-		4DBC0FED1EEABE22002A8B72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0FEC1EEABE22002A8B72 /* ViewController.swift */; };
-		4DBC0FF01EEABE22002A8B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC0FEE1EEABE22002A8B72 /* Main.storyboard */; };
 		4DBC0FF21EEABE22002A8B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC0FF11EEABE22002A8B72 /* Assets.xcassets */; };
 		4DBC0FF51EEABE22002A8B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC0FF31EEABE22002A8B72 /* LaunchScreen.storyboard */; };
 		4DBC10001EEABE22002A8B72 /* poloniex_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0FFF1EEABE22002A8B72 /* poloniex_appTests.swift */; };
 		4DBC100B1EEABE22002A8B72 /* poloniex_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC100A1EEABE22002A8B72 /* poloniex_appUITests.swift */; };
+		4DBC101C1EEAF536002A8B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC101B1EEAF536002A8B72 /* Main.storyboard */; };
+		4DC1F3781F08DDF50062E62F /* CurrencyRatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1F3771F08DDF50062E62F /* CurrencyRatesModel.swift */; };
+		4DC1F37A1F08E1AD0062E62F /* CurrencyRateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1F3791F08E1AD0062E62F /* CurrencyRateTableViewController.swift */; };
+		B1F2BFDF6F89B394F1DF54BA /* Pods_poloniex_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2DCAD0669851F6BDDAAA7 /* Pods_poloniex_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C737F1F1924224B40F1051 /* Pods-poloniex-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poloniex-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poloniex-app/Pods-poloniex-app.debug.xcconfig"; sourceTree = "<group>"; };
+		24F78E3C15BE070591072414 /* Pods-poloniex-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poloniex-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-poloniex-app/Pods-poloniex-app.release.xcconfig"; sourceTree = "<group>"; };
+		4D32A08F1EF0905C003CC8DE /* CurrencyRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		4DAC556B1F0C3AF700FFCB49 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		4DAC556D1F0C3AF700FFCB49 /* poloniex-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "poloniex-app.entitlements"; sourceTree = "<group>"; };
 		4DBC0FE71EEABE22002A8B72 /* poloniex-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poloniex-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBC0FEA1EEABE22002A8B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DBC0FEC1EEABE22002A8B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DBC0FEF1EEABE22002A8B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DBC0FF11EEABE22002A8B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBC0FF41EEABE22002A8B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DBC0FF61EEABE22002A8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,10 @@
 		4DBC10061EEABE22002A8B72 /* poloniex-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poloniex-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBC100A1EEABE22002A8B72 /* poloniex_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poloniex_appUITests.swift; sourceTree = "<group>"; };
 		4DBC100C1EEABE22002A8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBC101B1EEAF536002A8B72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4DC1F3771F08DDF50062E62F /* CurrencyRatesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRatesModel.swift; sourceTree = "<group>"; };
+		4DC1F3791F08E1AD0062E62F /* CurrencyRateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRateTableViewController.swift; sourceTree = "<group>"; };
+		56F2DCAD0669851F6BDDAAA7 /* Pods_poloniex_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poloniex_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAC556C1F0C3AF700FFCB49 /* ExternalAccessory.framework in Frameworks */,
+				B1F2BFDF6F89B394F1DF54BA /* Pods_poloniex_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D32A08E1EF0685B003CC8DE /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4DC1F3771F08DDF50062E62F /* CurrencyRatesModel.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		4DAC556A1F0C3AF700FFCB49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC556B1F0C3AF700FFCB49 /* ExternalAccessory.framework */,
+				56F2DCAD0669851F6BDDAAA7 /* Pods_poloniex_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4DBC0FDE1EEABE22002A8B72 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				4DBC0FFE1EEABE22002A8B72 /* poloniex-appTests */,
 				4DBC10091EEABE22002A8B72 /* poloniex-appUITests */,
 				4DBC0FE81EEABE22002A8B72 /* Products */,
+				4DAC556A1F0C3AF700FFCB49 /* Frameworks */,
+				83ADE965DA480E16050AB86E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +129,15 @@
 		4DBC0FE91EEABE22002A8B72 /* poloniex-app */ = {
 			isa = PBXGroup;
 			children = (
+				4DAC556D1F0C3AF700FFCB49 /* poloniex-app.entitlements */,
+				4DC1F3761F08DDA70062E62F /* entities */,
+				4D32A08E1EF0685B003CC8DE /* models */,
+				4DBC10181EEABE3B002A8B72 /* controllers */,
 				4DBC0FEA1EEABE22002A8B72 /* AppDelegate.swift */,
-				4DBC0FEC1EEABE22002A8B72 /* ViewController.swift */,
-				4DBC0FEE1EEABE22002A8B72 /* Main.storyboard */,
 				4DBC0FF11EEABE22002A8B72 /* Assets.xcassets */,
 				4DBC0FF31EEABE22002A8B72 /* LaunchScreen.storyboard */,
 				4DBC0FF61EEABE22002A8B72 /* Info.plist */,
+				4DBC101B1EEAF536002A8B72 /* Main.storyboard */,
 			);
 			path = "poloniex-app";
 			sourceTree = "<group>";
@@ -125,6 +160,31 @@
 			path = "poloniex-appUITests";
 			sourceTree = "<group>";
 		};
+		4DBC10181EEABE3B002A8B72 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DC1F3791F08E1AD0062E62F /* CurrencyRateTableViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		4DC1F3761F08DDA70062E62F /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				4D32A08F1EF0905C003CC8DE /* CurrencyRate.swift */,
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
+		83ADE965DA480E16050AB86E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C737F1F1924224B40F1051 /* Pods-poloniex-app.debug.xcconfig */,
+				24F78E3C15BE070591072414 /* Pods-poloniex-app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DBC100F1EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-app" */;
 			buildPhases = (
+				86E598F3643CA165763B30C8 /* [CP] Check Pods Manifest.lock */,
 				4DBC0FE31EEABE22002A8B72 /* Sources */,
 				4DBC0FE41EEABE22002A8B72 /* Frameworks */,
 				4DBC0FE51EEABE22002A8B72 /* Resources */,
+				7ABE2B8C3125BEC51D479110 /* [CP] Embed Pods Frameworks */,
+				F6A631F1AD59A34BA61D7B11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +258,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 7HC5QYD3ZK;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					4DBC0FFA1EEABE22002A8B72 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -235,9 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBC101C1EEAF536002A8B72 /* Main.storyboard in Resources */,
 				4DBC0FF51EEABE22002A8B72 /* LaunchScreen.storyboard in Resources */,
 				4DBC0FF21EEABE22002A8B72 /* Assets.xcassets in Resources */,
-				4DBC0FF01EEABE22002A8B72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +325,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ABE2B8C3125BEC51D479110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poloniex-app/Pods-poloniex-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E598F3643CA165763B30C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A631F1AD59A34BA61D7B11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poloniex-app/Pods-poloniex-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DBC0FE31EEABE22002A8B72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBC0FED1EEABE22002A8B72 /* ViewController.swift in Sources */,
+				4DC1F37A1F08E1AD0062E62F /* CurrencyRateTableViewController.swift in Sources */,
+				4D32A0901EF0905C003CC8DE /* CurrencyRate.swift in Sources */,
+				4DC1F3781F08DDF50062E62F /* CurrencyRatesModel.swift in Sources */,
 				4DBC0FEB1EEABE22002A8B72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +417,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DBC0FEE1EEABE22002A8B72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DBC0FEF1EEABE22002A8B72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DBC0FF31EEABE22002A8B72 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,8 +525,10 @@
 		};
 		4DBC10101EEABE22002A8B72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C737F1F1924224B40F1051 /* Pods-poloniex-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "poloniex-app/poloniex-app.entitlements";
 				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
 				INFOPLIST_FILE = "poloniex-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,8 +540,10 @@
 		};
 		4DBC10111EEABE22002A8B72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F78E3C15BE070591072414 /* Pods-poloniex-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "poloniex-app/poloniex-app.entitlements";
 				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
 				INFOPLIST_FILE = "poloniex-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +630,7 @@
 				4DBC10111EEABE22002A8B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DBC10121EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-appTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +639,7 @@
 				4DBC10141EEABE22002A8B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DBC10151EEABE22002A8B72 /* Build configuration list for PBXNativeTarget "poloniex-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +648,7 @@
 				4DBC10171EEABE22002A8B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
