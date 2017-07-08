@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4D32A0901EF0905C003CC8DE /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32A08F1EF0905C003CC8DE /* CurrencyRate.swift */; };
+		4D3630C81F10329B001379A4 /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630C71F10329B001379A4 /* ApiConfiguration.swift */; };
+		4D498EFC1F0C3D3E00B9B958 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D498EFB1F0C3D3E00B9B958 /* ModelProtocol.swift */; };
+		4D498EFE1F0C41B500B9B958 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D498EFD1F0C41B500B9B958 /* Alamofire.framework */; };
 		4DAC556C1F0C3AF700FFCB49 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAC556B1F0C3AF700FFCB49 /* ExternalAccessory.framework */; };
 		4DBC0FEB1EEABE22002A8B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0FEA1EEABE22002A8B72 /* AppDelegate.swift */; };
 		4DBC0FF21EEABE22002A8B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC0FF11EEABE22002A8B72 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 		10C737F1F1924224B40F1051 /* Pods-poloniex-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poloniex-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poloniex-app/Pods-poloniex-app.debug.xcconfig"; sourceTree = "<group>"; };
 		24F78E3C15BE070591072414 /* Pods-poloniex-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poloniex-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-poloniex-app/Pods-poloniex-app.release.xcconfig"; sourceTree = "<group>"; };
 		4D32A08F1EF0905C003CC8DE /* CurrencyRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		4D3630C71F10329B001379A4 /* ApiConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
+		4D498EFB1F0C3D3E00B9B958 /* ModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		4D498EFD1F0C41B500B9B958 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		4DAC556B1F0C3AF700FFCB49 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		4DAC556D1F0C3AF700FFCB49 /* poloniex-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "poloniex-app.entitlements"; sourceTree = "<group>"; };
 		4DBC0FE71EEABE22002A8B72 /* poloniex-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poloniex-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D498EFE1F0C41B500B9B958 /* Alamofire.framework in Frameworks */,
 				4DAC556C1F0C3AF700FFCB49 /* ExternalAccessory.framework in Frameworks */,
 				B1F2BFDF6F89B394F1DF54BA /* Pods_poloniex_app.framework in Frameworks */,
 			);
@@ -91,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4DC1F3771F08DDF50062E62F /* CurrencyRatesModel.swift */,
+				4D498EFB1F0C3D3E00B9B958 /* ModelProtocol.swift */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -98,6 +106,7 @@
 		4DAC556A1F0C3AF700FFCB49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D498EFD1F0C41B500B9B958 /* Alamofire.framework */,
 				4DAC556B1F0C3AF700FFCB49 /* ExternalAccessory.framework */,
 				56F2DCAD0669851F6BDDAAA7 /* Pods_poloniex_app.framework */,
 			);
@@ -172,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				4D32A08F1EF0905C003CC8DE /* CurrencyRate.swift */,
+				4D3630C71F10329B001379A4 /* ApiConfiguration.swift */,
 			);
 			name = entities;
 			sourceTree = "<group>";
@@ -380,8 +390,10 @@
 			files = (
 				4DC1F37A1F08E1AD0062E62F /* CurrencyRateTableViewController.swift in Sources */,
 				4D32A0901EF0905C003CC8DE /* CurrencyRate.swift in Sources */,
+				4D498EFC1F0C3D3E00B9B958 /* ModelProtocol.swift in Sources */,
 				4DC1F3781F08DDF50062E62F /* CurrencyRatesModel.swift in Sources */,
 				4DBC0FEB1EEABE22002A8B72 /* AppDelegate.swift in Sources */,
+				4D3630C81F10329B001379A4 /* ApiConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +542,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "poloniex-app/poloniex-app.entitlements";
 				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = "poloniex-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,7 +562,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "poloniex-app/poloniex-app.entitlements";
 				DEVELOPMENT_TEAM = 7HC5QYD3ZK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = "poloniex-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dremanovich.poloniex-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";

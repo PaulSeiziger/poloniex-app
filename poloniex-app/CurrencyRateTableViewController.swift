@@ -16,39 +16,43 @@ class CurrencyRateCell: UITableViewCell{
 }
 
 class CurrencyRateTableViewController: UITableViewController {
-    var data: [CurrencyRate]?
+    var data: [String: CurrencyRate] = [:]
+    var dataIndexes: [String] = []
+    
     let reuseCellIdentifier = "currencyRateCell"
     let currencyRateValueFormat = "%.8f"
+    var model:CurrencyRatesModel?
     
     override func viewDidAppear(_ animated: Bool) {
-        data = [
-            CurrencyRate(currencyName: "BTC", currencyValue: 0.98221223),
-            CurrencyRate(currencyName: "XRP",currencyValue: 0.0122222)
-        ]
+        let config = ApiConfiguration()
         
-//        self.tableView.register(CurrencyRateCell.self, forCellReuseIdentifier: reuseCellIdentifier)
-        self.tableView.reloadData()
+        model = CurrencyRatesModel(configuration: config)
+        model?.listen(callback: modelCallback)
+        model?.start()
+        
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        model?.stop()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let data = data else {
-            return 0
-        }
-        
-        return data.count
+        return dataIndexes.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let data = data else {
-            fatalError("Application error no cell data available")
-        }
-        
-        let cellData = data[indexPath.row]
         
         let cell:CurrencyRateCell = tableView.dequeueReusableCell(withIdentifier: reuseCellIdentifier, for: indexPath) as! CurrencyRateCell
         
-        cell.currencyName.text = cellData.currencyName
-        cell.currencyValue.text = String(format: currencyRateValueFormat, cellData.currencyValue)
+        let itemKey = dataIndexes[indexPath.row]
+        let item = data[itemKey]
+        
+        if let cellData = item{
+            cell.currencyName.text = cellData.currencyName
+            cell.currencyValue.text = String(format: currencyRateValueFormat, cellData.currencyValue)
+            
+            animateCell(cell: cell, item: cellData)
+        }
         
         return cell
     }
@@ -57,13 +61,43 @@ class CurrencyRateTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let createdCell = cell as! CurrencyRateCell
         
-        guard let data = data else {
-            fatalError("Application error no cell data available")
+        let itemKey = dataIndexes[indexPath.row]
+        let item = data[itemKey]
+        
+        if let cellData = item{
+            createdCell.currencyName.text = cellData.currencyName
+            createdCell.currencyValue.text = String(format: currencyRateValueFormat, cellData.currencyValue)
+            
+            animateCell(cell: createdCell, item: cellData)
         }
-        
-        let cellData = data[indexPath.row]
-        
-        createdCell.currencyName.text = cellData.currencyName
-        createdCell.currencyValue.text = String(format: currencyRateValueFormat, cellData.currencyValue)
+    }
+    
+    private func modelCallback(refName:String, name:String, currency:CurrencyRate){
+        if (refName == "BTC"){
+            if !(dataIndexes.contains(name)) {
+                dataIndexes.append(name)
+            }
+            
+            data[name] = currency
+            
+            self.tableView.reloadData()
+        }
+    }
+    
+    private func animateCell(cell: CurrencyRateCell, item: CurrencyRate){
+        if !item.isShown{
+            item.isShown = true
+            
+            UIView.animate(
+                withDuration: 0.3,
+                animations: { cell.backgroundColor = UIColor(red:0.20, green:0.60, blue:0.86, alpha:1.0)},
+                completion: { state in
+                    UIView.animate(
+                        withDuration: 0.3,
+                        animations: {cell.backgroundColor = UIColor.white}
+                    )
+                }
+            )
+        }
     }
 }

@@ -7,9 +7,10 @@
 //
 
 import Foundation
-struct CurrencyRate {
+class CurrencyRate {
     var currencyName:String = "Undefined"
     var currencyValue:Double = 0.0
+    var isShown:Bool = false
     
     init() {
         
